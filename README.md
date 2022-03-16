@@ -1,7 +1,9 @@
-Straighforward Dockefile with Qt 5 + MXE for compiling Windows binaries for CI using MinGW 32
-After building your project, you will get 32-bit binary with static linked Qt. This can be changed by changing MXE_TARGETS env variable in Dockerfile
+Straighforward Dockefile with Qt 5 + MXE for compiling Windows binaries for CI using MinGW 32.
+
+After building your project, you will get 32-bit binary with static linked Qt. This can be changed by changing MXE_TARGETS env variable in Dockerfile.
 
 Pre-built Docker image can be found in [Docker repo](https://hub.docker.com/r/vrex141/qt5_mxe)
+
 Documentation for MXE can be found on [website](https://mxe.cc/)
 
 ## Usage
